@@ -56,6 +56,7 @@ jobs:
           --tag "us-docker.pkg.dev/august-now-404322/miguel-api/stedi-api:latest" \
           --build-arg GITHUB_SHA="$GITHUB_SHA" \
           --build-arg GITHUB_REF="$GITHUB_REF" \
+          .
 
     # Push the Docker image to Google Container Registry
     - name: Publish
