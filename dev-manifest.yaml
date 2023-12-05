@@ -10,7 +10,7 @@ metadata:
 # The name here is the name of our deployment  
   name: dev-stedi-miguel
 spec:
-# Replicas refers to the number of pods we deploy
+# Replicas refers to the number of pods we deploy.
   replicas: 1
 # A selector is a route to my pod
   selector:
